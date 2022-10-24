@@ -1,0 +1,28 @@
+* {
+  font-family: 'Corinthia', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 1rem;
+}
+
+.container h1{
+  margin: 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .container {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+  }
+}
+
+
+
